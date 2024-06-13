@@ -494,13 +494,13 @@ impl Fees {
         self.min_separate_numerator = 5;
         self.min_separate_denominator = TEN_THOUSAND;
         // trade_fee = 25/10000
-        self.trade_fee_numerator = 25;
+        self.trade_fee_numerator = 7;
         self.trade_fee_denominator = TEN_THOUSAND;
         // pnl = 12/100
         self.pnl_numerator = 12;
         self.pnl_denominator = 100;
         // swap_fee = 25 / 10000
-        self.swap_fee_numerator = 25;
+        self.swap_fee_numerator = 23;
         self.swap_fee_denominator = TEN_THOUSAND;
         Ok(())
     }

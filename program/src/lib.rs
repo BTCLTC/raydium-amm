@@ -16,7 +16,7 @@ pub mod state;
 pub use solana_program;
 
 #[cfg(feature = "devnet")]
-solana_program::declare_id!("baskUiPSS8Tv3fvCdYKmBfwgwK3Vbkr8KDCCET3KjSv");
+solana_program::declare_id!("GrtWEWwKNJDBxM6RE5Kp2kbvbRSa4vL5rQSJLSWbpKax");
 
 #[cfg(not(any(feature = "localnet", feature = "devnet")))]
 solana_program::declare_id!("dexrBFKXSS5Mge5FN8DRRMfsqigjgj2P9ifm38orQRx");
